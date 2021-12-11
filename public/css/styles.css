@@ -79,7 +79,7 @@ main {
 }
 
 .main-container-right {
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.6rem;
     display: flex;
     flex-direction: column;
     color: #ebebeb;
@@ -97,7 +97,7 @@ main {
 .main-container-right p {
     font-size: 1.5rem;
     font-weight: lighter;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .main-container-right a {
@@ -106,11 +106,29 @@ main {
     text-align: center;
     font-size: 0.9rem;
     font-weight: lighter;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.main-container-right-sub {
+    display: flex;
+    gap: 10px;
 }
 
 .main-container-right-sub-left img {
     width: 45px;
     height: 45px;
 }
+
+.main-container-right-sub-right {
+    font-size: 0.7rem;
+}
+
+.main-container-right-sub-right h3 {
+    font-size: 1rem;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #B3DFFF;
+}
+
+
                         
