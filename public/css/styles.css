@@ -1,0 +1,116 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(farthest-corner at 40px 40px,#2A475E 0%, #1B2838 80%);
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+/* HEADER */
+
+header {
+    background-color: #171a21;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 15%;
+}
+
+.header-logo {
+    height: 44px;
+    width: 176px; 
+}
+
+header ul {
+    text-transform: uppercase;
+    color: #b8b6b4;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.main-title {
+    
+}
+
+.main-container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.main-container-left {
+    background: url(https://www.aroged.com/wp-content/uploads/2021/10/Happy-Humbles-Burger-Farm-Horror-Adventure-Cooking-Simulation-Comes-in.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  0px 12px 16px 0px #0000003D;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.main-container-right {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #ebebeb;
+    background: linear-gradient(#518cad, #1B2838);
+    box-shadow:  0px 12px 16px 0px #0000003D;
+    width: 50%;
+    height: 50%;
+}
+
+.main-container-right h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-container-right p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.main-container-right a {
+    color: #B3DFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.main-container-right-sub-left img {
+    width: 45px;
+    height: 45px;
+}
+                        

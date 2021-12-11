@@ -1,0 +1,25 @@
+{
+  "name": "gamehub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev server.js --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBiglemon/GameHub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBiglemon/GameHub/issues"
+  },
+  "homepage": "https://github.com/CBiglemon/GameHub#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
