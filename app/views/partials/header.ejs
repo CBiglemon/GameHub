@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <% if(locals.cssFile) {%>
+        <link rel="stylesheet" href="/css/<%= cssFile%>">
+        <% } %>
+    <title>GameHub</title>
+</head>
+<body>
+    <header>
+        <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" class="header-logo">
+        <nav>
+            <ul>
+                <% if(locals.games){ %> <!--je m'assure que games existe-->
+                <% for(const game of games){ %>
+                  <li> <a href="/game/<%= game.name%>"><%= game.title%></a></li>
+                <% }
+                 } %>
+            </ul>
+        </nav>
+    </header>
